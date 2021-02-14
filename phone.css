@@ -1,0 +1,92 @@
+
+
+
+.entete1{
+    display: flex;
+}
+
+.logo{
+    flex-grow: 50;
+}
+.menue{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+}
+.menu1{
+    display: flex;
+
+    flex-grow: 1;
+}
+#barre3{
+    display: inline-block;
+    line-height: 6px;
+    border-bottom: 5px solid #0065FC;
+    background-color: white;
+    color: #0065FC;
+}
+#barre1{
+    display: inline-block;
+    line-height: 6px;
+    border-bottom: 5px solid #F2F2F2;
+    background-color: white;
+    
+}
+
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+   
+.main{
+    display: flex;
+    flex-wrap:  wrap;
+     width: 100%;
+     height: auto;
+     
+     background-color: #C5C5C5;
+     
+    
+   
+   }
+   
+
+   .side{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #C5C5C5;
+    margin-left: 150px;
+   
+  
+  }
+  
+ 
+
+  .thumbnail{
+    margin: 30px 30px 0px 30px;
+    border-radius: 20px;
+  background-color: white;
+  
+  
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 28%;
+    height: 2%;
+    
+    
+  }
+  
+
+
+
+  #foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+

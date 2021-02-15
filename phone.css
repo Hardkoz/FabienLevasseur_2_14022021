@@ -1,92 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
 
 
+/*header*/
 
-.entete1{
-    display: flex;
-}
+.tete{
+  display: flex;
+ }
 
-.logo{
-    flex-grow: 50;
-}
-.menue{
-    display: flex;
-    flex-direction: row;
-    margin-left: 1%;
-}
-.menu1{
-    display: flex;
-
-    flex-grow: 1;
-}
-#barre3{
-    display: inline-block;
-    line-height: 6px;
-    border-bottom: 5px solid #0065FC;
-    background-color: white;
-    color: #0065FC;
-}
-#barre1{
-    display: inline-block;
-    line-height: 6px;
-    border-bottom: 5px solid #F2F2F2;
-    background-color: white;
-    
-}
-
-
-.row{
-    display: flex;
-    flex-direction: column;
-}
-   
-.main{
-    display: flex;
-    flex-wrap:  wrap;
-     width: 100%;
-     height: auto;
-     
-     background-color: #C5C5C5;
-     
-    
-   
-   }
-   
-
-   .side{
-    display: flex;
-    flex-direction: column;
-    
-    background-color: #C5C5C5;
-    margin-left: 150px;
-   
-  
-  }
+.tete1{
   
  
-
-  .thumbnail{
-    margin: 30px 30px 0px 30px;
-    border-radius: 20px;
-  background-color: white;
-  
-  
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    width: 28%;
-    height: 2%;
-    
-    
-  }
-  
-
-
-
-  #foot{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Raleway', sans-serif;
-    background-color: #F2F2F2;
-    padding: 20px;
+  position: absolute;
+  left: 1%;
+  width: 50%;
 }
+
+
+
+.tete2{
+  display: flex;
+  text-align: end;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  color: #0065FC;
+  position: absolute;
+  right: 1%;
+  width: 50%;
+}
+  
+
+.tete3{
+  
+  border-bottom-style: solid;
+  
+  border-bottom-color: #0065FC;
+  color: #0065FC;
+  text-align: center;
+  padding-right: 25%;
+  padding-bottom: 0.5%;
+  
+ 
+}
+
+.tete4{
+  
+  border-bottom-style: solid;
+  border-bottom-color: #F2F2F2;
+  text-align: center;
+  padding-left: 25%;
+  color: black;
+  
+}
+
+ 
+ 
+ 
+
 
 

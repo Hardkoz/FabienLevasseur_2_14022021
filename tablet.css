@@ -2,58 +2,6 @@
 /* CSS Document */
 
 
-.logo{
 
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    
-    
-    
-}
-
-.right{
-    display: flex;
-    flex-direction: row;
-    padding: 1%;
-    
-    
-    
-    
-    
-    
-    
-    
-}
-
-.activity{
-    order: 1;
-    padding: 1%;
-
-   
-    
-    
-    
-  
-    
-}
-
-.menu{
-    order: 2;
-    padding: 1%;
     
    
-    
-}
-
-.picture{
-    margin-top: 10%;
-    
-   
-
-.menu1{
-    
-   
-  
-}

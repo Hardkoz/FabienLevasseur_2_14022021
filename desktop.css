@@ -1,63 +1,207 @@
-.tete{
-    display: flex;
-    
-    
-   }
-  
-  .tete1{
-    
-    display: flex;
-    
-    
-    
-    
-    
-    
-  }
-  
+.a1{
+  position: absolute;
+  left: 67%;
+  top: 2%;
  
-  
-  .tete2{
-    display: flex;
-    text-align: end;
-    flex-direction: row-reverse;
-    justify-content: end;
-    
-  }
-    
-  
-  .tete3{
-   display: flex;
-    color: #0065FC;
-    padding-left: 130%;
-    border-bottom-style: none;
-  
- 
- 
-  
+}
 
+.a2{
+  position: absolute;
+  left: 80%;
+  top: 2%;
+}
+
+.a3{
+  position: absolute;
+left: 90%;
+top: 2%;
+}
+
+.text{
+  padding: 5% 10% 0% 0%;
+  line-height: 1.5em;
+}
+
+.text1{
+  line-height: 0.5em;
+}
   
-    
-    
-    
-    
-   
-  }
-  
-  .tete4{
-    
-    border-bottom-style: solid;
-    border-bottom-color: #ffffff;
-    
-    padding-right: 10%;
-    color: black;
-    
-  
-  
-   
-    
-  }
+.navigation{
+  display: flex;
+  justify-content:flex-start;
+
+}
+
+#icom{
+  background-color: #0065FC;
+  color: white;
+  border-radius: 50%;
  
+ } 
  
+ .news{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+ }
+
+ .map
+{
+	
+	border: 1px solid #F2F2F2;
+	padding: 15px;
+	width: 25px;
+    height: auto;
+    text-align: center;
+	border-radius: 15px 0px 0px 15px;
+	background-color: #F2F2F2;
+}
+.place
+{
+	padding: 15px;
+	border: 1px solid #F2F2F2;
+	width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+#pseudo{
+   border: 0px;
+	width: 150px;
+    height: 15px;
+    text-align: center;
+
+}
+.research
+{
+	padding: 15px;
+	border: 1px solid #C5C5C5;
+	width: 80px;
+    height: auto;
+    text-align: center;
+	border-radius: 0px 15px 15px 0px;
+	background-color: #0065FC;
+	color: aliceblue;
+    
+}
+#location
+{
+    display: flex;
+   margin: 0% 0% 1% 0%;
+}
+
+
+/*Activités à Marseilles*/
+
+.activity{
+  display: flex;
+  flex-direction: row;
+  margin: 5% 2% 2% 2%;
+  
+  
+  }
+
+.double{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.cards2{
+  width: 380px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+  
+}
+
+.cards1{
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.thumbnail2{
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  
+  margin-top: 5px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.thumbnail1{
+  width: 380px;
+  height: 655px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.name{
+  margin:10px 0px 10px 15px;
+}
+
+/*----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*pied de page*/
+
+#foot{
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Raleway', sans-serif;
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+
+.help{
+  flex-grow: 1;
+}
 
 

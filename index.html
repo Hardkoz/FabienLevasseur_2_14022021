@@ -2,11 +2,10 @@
 <html>
 <head>
   <script src="https://kit.fontawesome.com/a1646c5b7b.js" crossorigin="anonymous"></script>
-  <meta name="viewport" content="width=device-width, inittial-scale=1.0">
-  <link rel="stylesheet" href="phone.css" />
-  <link rel="stylesheet" media="screen and (max-width: 375px)" href="phone.css" />
-  <link rel="stylesheet" media="screen and (min-width: 800px)"  href="tablet.css" />
-  <link rel="stylesheet" media="screen and (min-width: 1024px)"  href="desktop.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen and (min-width: 320px)" href="phone.css" />
+  <link rel="stylesheet" media="screen and   (min-width: 600px)"  href="tablet.css" />
+  <link rel="stylesheet" media="screen and (min-width: 1600px)"  href="desktop.css" />
   
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -18,27 +17,152 @@
 <body>
   <header>
     
-    <div class="tete">
-      
-         <div class="tete1">
-            <img class="picture" src="images/logo/Reservia.svg" alt="logo">
-            <p class="tete3">Hébergement</p>
-        </div>
+    <img id="logo" src="images/logo/Reservia.svg" />
+    <nav>
+      <a class="a1">Hébergement</a>
+      <a class="a2">Activités</a>
+      <a class="a3">S'inscrire</a>
+    </nav>
+  
+  </header>
 
-        <div class="tete2">
-          <p class="tete15">S'inscrire</p>
-          <p class="tete4">Activités</p>
-        </div>
 
-       
-          
+ 
+
+   
     
+
+  <section>
+    <div class="text">
+      <h2>Trouver votre hébergement pour des vacances de rêve</h2>
+      <p class="text1">En plein centre ville ou en pleine nature</p>
     </div>
-    </header>
+
+    <div id="location">
+      <div class="map"><i class="fas fa-map-marker-alt"></i></div>
+      <div class=" places">
+        <form method="post" action="traitement.php">
+          <p>
+              
+              <input type="text" name="pseudo" id="pseudo" placeholder="Marseille, France"  />
+          </p>
+      </form>
+
+      </div>
+      <div class="research"><strong>Rechercher</strong> </div>
+    </div>
+    
+</div>
+    </div>
+      <div class="news">
+        <i class="fas fa-info-circle" id="icom"></i><p class="info">Plus de 500 logements sont disponibles dans cette ville</p>
+  </div>
 
     
+</section>
 
 
+
+<div class="activity">
+    
+
+  <div class="thumbnail1"> <a href="#"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt=""  class="cards2"/></a>
+  <p class="name"><strong>Vieux Port</strong> </p>
+  </div>
+  
+
+
+  <div class="double">
+    <div class="thumbnail2"> <a href="#"><img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt=""  class="cards1"/></a>
+      <p class="name"><strong>Fort de Pomègues</strong> </p>
+    </div>
+  
+
+
+<div class="thumbnail2"> <a href="#"><img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt=""  class="cards1"/></a>
+  <p class="name"><strong>Iles du Frioul</strong></p>
+</div>
+</div>
+
+
+
+
+<div class="thumbnail1"> <a href="#"><img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="" class="cards2"/></a>
+  <p class="name"><strong>Parc National des Calanques</strong></p>
+</div>
+
+
+<div class="double">
+<div class="thumbnail2"> <a href="#"><img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=""  class="cards1"/></a>
+  <p class="name"> <strong>Notre-Dame-de-la-Garde</strong></p>
+</div>
+
+<div class="thumbnail2"> <a href="#"><img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt=""  class="cards1"/></a>
+  <p class="name"><strong>Parc Longchamp</strong></p>
+</div>
+</div>
+</div>
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+  <div id="foot">
+    <div class="help">
+      <ul>
+        <h3>A propos</h3>
+      </ul>
+      <ul>
+        Fonctionnement
+      </ul>
+      <ul>
+        Conditions générales de vente
+      </ul>
+      <ul>
+        Données et confidentialité
+      </ul>
+    </div>
+    <div class="help">
+      <ul>
+        <h3>Nos hébergements</h3>
+      </ul>
+      <ul>
+        Charte qualité
+      </ul>
+      <ul>
+        Soumettre votre hôtel
+      </ul>
+    </div>
+    <div class="help">
+      <ul>
+        <h3>Assistance</h3>
+      </ul>
+      <ul>
+        Centre d'aide
+      </ul>
+      <ul>
+        Nous contacter
+      </ul>
+    </div>
+  </div>
+</footer>
+   
    
 
 

@@ -1,61 +1,193 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+body{
+ margin-left: 2%;
+  margin-right: 2%;
+}
 /*header*/
+.a1{
+  position: relative;
+  left: 10%;
+  top: 5%;
+ 
+}
 
-.tete{
+.a2{
+  position: relative;
+  left: 50%;
+  
+}
+
+.a3{
+position: absolute;
+right: 0%;
+top: 2%;
+color: #0065FC;
+}
+
+
+.text{
+  padding: 5% 10% 0% 5%;
+  line-height: 1.5em;
+}
+
+.text1{
+  line-height: 0.5em;
+}
+  
+.map
+{
+	
+	border: 1px solid #F2F2F2;
+	padding: 15px;
+	width: 25px;
+    height: auto;
+    text-align: center;
+	border-radius: 15px 0px 0px 15px;
+	background-color: #F2F2F2;
+}
+.place
+{
+	padding: 15px;
+	border: 1px solid #F2F2F2;
+	width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+#pseudo{
+   border: 0px;
+	width: 150px;
+    height: 15px;
+    text-align: center;
+
+}
+.research
+{
+	padding: 15px;
+	border: 1px solid #C5C5C5;
+	width: 80px;
+    height: auto;
+    text-align: center;
+	border-radius: 0px 15px 15px 0px;
+	background-color: #0065FC;
+	color: aliceblue;
+    
+}
+#location
+{
+    display: flex;
+   margin: 0% 0% 1% 0%;
+}
+
+
+.news{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+
+}
+
+#icom{
+ background-color: #0065FC;
+ color: white;
+ border-radius: 50%;
+
+} 
+
+
+/*Activités à Marseilles*/
+
+.activity{
   display: flex;
- }
-
-.tete1{
+  flex-direction: column;
+  margin: 5% 0% 0% 0%;
+  background-color: #F2F2F2;
   
- 
-  position: absolute;
-  left: 1%;
-  width: 50%;
-}
+  
+  }
 
-
-
-.tete2{
+.double{
   display: flex;
-  text-align: end;
-  flex-flow: column wrap;
-  justify-content: flex-end;
-  color: #0065FC;
-  position: absolute;
-  right: 1%;
-  width: 50%;
-}
+  flex-direction: column;
   
-
-.tete3{
-  
-  border-bottom-style: solid;
-  
-  border-bottom-color: #0065FC;
-  color: #0065FC;
-  text-align: center;
-  padding-right: 25%;
-  padding-bottom: 0.5%;
-  
- 
-}
-
-.tete4{
-  
-  border-bottom-style: solid;
-  border-bottom-color: #F2F2F2;
-  text-align: center;
-  padding-left: 25%;
-  color: black;
   
 }
 
- 
- 
- 
+.cards2{
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+  background-color: aliceblue;
+  
+}
 
+.cards1{
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.thumbnail2{
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  background-color: aliceblue;
+  margin-top: 5px;
+  margin-bottom: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.thumbnail1{
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.name{
+  margin:10px 0px 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#foot{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Raleway', sans-serif;
+  background-color: #F2F2F2;
+  padding: 20px;
+}
 
 

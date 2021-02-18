@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-margin-left: 2% ;
+margin-left: 0% ;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -12,6 +12,7 @@ margin-left: 2% ;
   padding-left: 5%;
   border-bottom:#0065FC solid 2px;
   padding-right: 20%;
+  color: #0065FC;
  
   
   

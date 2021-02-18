@@ -1,20 +1,43 @@
+body{
+ 
+  
+  font-family: 'Raleway', sans-serif;
+}
+
+
 .a1{
   position: absolute;
-  left: 67%;
-  top: 2%;
+  right: 17%;
+  top: 0%;
+  padding-right: 0%;
+  padding-left: 0%;
+  border-bottom: none;
+  border-top: solid 2px #0065FC;
+  color: #0065FC;
+  padding-top: 2%;
+  
+
+ 
+}
+ 
+
+.a2{
+ 
+ right: 5%;
+  top: 0%;
+  padding-right: 4%;
+  border-bottom: none;
+  padding-top: 2%;
+ 
  
 }
 
-.a2{
-  position: absolute;
-  left: 80%;
-  top: 2%;
-}
-
 .a3{
-  position: absolute;
-left: 90%;
-top: 2%;
+  display: flex;
+top: 0%;
+right: 0%;
+padding-top: 2%;
+padding-right: 2%;
 }
 
 .text{
@@ -91,6 +114,249 @@ top: 2%;
    margin: 0% 0% 1% 0%;
 }
 
+.titrefiltre
+{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.filtres
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 25px;
+	width: 50%;
+	margin-top:15px;
+	margin-bottom:15px;
+	text-align: center;
+	font-weight: bold;
+
+
+}
+
+.filtre
+{
+	border: 2px solid #F2F2F2;
+	border-radius: 25px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-right:20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+    background-color: white;
+}
+  
+.inblock
+{
+	background-color: #DEEBFF;
+	border: 0px solid white;
+	border-radius: 40px 40px 40px 40px;
+	margin-right: 10px;
+	padding: 14px 14px 14px 15px;
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
+    color: #0065FC;
+}
+
+
+.navigation{
+        display: flex;
+        flex-direction: column;
+        margin: 2% 2% 2% 2%;
+       
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    .news{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+  .info{
+      margin-left: 1%;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: column;
+  margin: 2% 2% 2% 2%;
+ 
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.news{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.info{
+margin-left: 1%;
+}
+
+#icom{
+background-color: #0065FC;
+color: white;
+border-radius: 50%;
+
+}
+
+
+.row {  
+display: flex;
+
+height:auto;
+width: 100%;
+padding: 1%;
+
+
+
+}
+
+.main {
+display: flex;
+flex-direction: column;
+margin-left: 1%;
+background-color: #f1f1f1;
+padding: 10px;
+margin-right: 2%;
+border-radius: 20px;
+flex-grow: 2;
+
+
+
+
+
+}
+
+
+
+.side {
+display: flex;
+flex-direction: column;
+
+background-color: #f1f1f1;
+padding: 10px;
+
+
+border-radius: 20px;
+flex-grow: 3;
+}
+
+.gallery {
+display: flex;
+padding: auto;
+
+
+
+}
+
+.thumbnail {
+
+margin: 22px;
+border-radius: 15px;
+background-color: white;
+padding: 8px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+
+
+} 
+
+.title{
+margin-bottom: 10%;
+}
+
+.popular1{
+
+width: auto;
+height: auto;
+object-fit: cover;
+background-image: url('emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
+background-repeat: no-repeat;
+background-size: 50% 100%;
+border: 5px solid rgb(255, 255, 255);
+padding: 20px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+margin-bottom: 10%;
+background-color: white;
+
+}
+
+.popular2{
+width: auto;
+height: 180px;
+object-fit: cover;
+background-image: url('aw-creative-VGs8z60yT2c-unsplash.jpg');
+background-repeat: no-repeat;
+background-size: 50% 100%;
+border: 5px solid rgb(255, 255, 255);
+padding: 20px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+margin-bottom: 10%;
+background-color: white;
+}
+
+.popular3{
+width: auto;
+height: 180px;
+object-fit: cover;
+background-image: url('febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+background-repeat: no-repeat;
+background-size: 50% 100%;
+border: 5px solid rgb(255, 255, 255);
+padding: 20px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+background-color: white;
+}
+
+.populartext{
+display: flex;
+flex-direction: column;
+
+padding: 0px 0px 0px 250px;
+
+}
+.cards{
+border-radius: 15px;
+}
+
+img.thumbnail{
+
+border-radius: 50px;
+border: 1px solid #ccc;
+}
+
+.gallery1 {
+display: flex;
+
+}
+
+#blue-star{
+color: #0065FC;
+}
+
+#grey-star{
+
+color: #f1f1f1;
+}
+
 
 /*Activités à Marseilles*/
 
@@ -98,6 +364,7 @@ top: 2%;
   display: flex;
   flex-direction: row;
   margin: 5% 2% 2% 2%;
+  background-color: white;
   
   
   }
@@ -197,7 +464,7 @@ top: 2%;
   justify-content: flex-start;
   font-family: 'Raleway', sans-serif;
   background-color: #F2F2F2;
-  padding: 20px;
+  padding: 0px;
 }
 
 .help{

@@ -2,26 +2,54 @@
 /* CSS Document */
 
 body{
- margin-left: 2%;
-  margin-right: 2%;
+margin-left: 2% ;
+  font-family: 'Raleway', sans-serif;
 }
+
 /*header*/
 .a1{
-  position: relative;
-  left: 10%;
-  top: 5%;
+  position: absolute;
+  padding-left: 5%;
+  border-bottom:#0065FC solid 2px;
+  padding-right: 20%;
+ 
+  
+  
+  
+ 
  
 }
 
 .a2{
-  position: relative;
-  left: 50%;
+
+position: absolute; 
+ display: flex;
+flex-direction: row-reverse;
+right: 0%;
+display: flex;
+border-bottom: #F2F2F2 solid 2px;
+padding-right: 20%;
+margin: 0%;
+padding-left: 10%;
+
   
+ 
+ 
+  
+
+
+ 
+ 
+  
+  
+ 
+ 
 }
+
 
 .a3{
 position: absolute;
-right: 0%;
+right: 5%;
 top: 2%;
 color: #0065FC;
 }
@@ -33,7 +61,7 @@ color: #0065FC;
 }
 
 .text1{
-  line-height: 0.5em;
+  line-height: 1.5em;
 }
   
 .map
@@ -80,7 +108,78 @@ color: #0065FC;
     display: flex;
    margin: 0% 0% 1% 0%;
 }
+.titrefiltre
+{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    margin-left: 0px;
+    
+}
+.filtres
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 0px;
+	width: 50%;
+	margin-top:15px;
+	margin-bottom:15px;
+	text-align: center;
+	font-weight: bold;
 
+
+}
+
+.filtre
+{
+	border: 2px solid #F2F2F2;
+	border-radius: 25px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-right:0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+    background-color: white;
+}
+  
+.inblock
+{
+	background-color: #DEEBFF;
+	border: 0px solid white;
+	border-radius: 40px 40px 40px 40px;
+	margin-right: 1px;
+	padding: 14px 14px 14px 14px;
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
+    color: #0065FC;
+}
+
+
+.navigation{
+        display: flex;
+        flex-direction: column;
+        margin: 2% 2% 2% 2%;
+       
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    .news{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+  .info{
+      margin-left: 1%;
+}
 
 .news{
  display: flex;
@@ -96,6 +195,57 @@ color: #0065FC;
 
 } 
 
+.row{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+}
+
+.main{
+  order: 2;
+  align-items: center;
+}
+
+.side{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+ order: 1;
+ 
+  
+}
+
+.gallery  {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+ 
+
+}
+
+.gallery1 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.gallery3{
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  
+
+}
+
+.cards{
+  width: 320px ;
+ 
+}
+
+
 
 /*Activités à Marseilles*/
 
@@ -103,7 +253,7 @@ color: #0065FC;
   display: flex;
   flex-direction: column;
   margin: 5% 0% 0% 0%;
-  background-color: #F2F2F2;
+ 
   
   
   }
@@ -116,36 +266,36 @@ color: #0065FC;
 }
 
 .cards2{
-  width: 350px;
+  width: 300px;
   height: 200px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
-  background-color: aliceblue;
+
   
 }
 
 .cards1{
-  width: 350px;
+  width: 300px;
   height: 200px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
 
 .thumbnail2{
-  width: 350px;
+  width: 300px;
   height: 200px;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  background-color: aliceblue;
+  
   margin-top: 5px;
   margin-bottom: 60px;
-  margin-left: 0px;
+  margin-left: 10px;
   margin-right: 0px;
 }
 
 .thumbnail1{
-  width: 350px;
+  width: 300px;
   height: 200px;
   object-fit: cover;
   border-radius: 15px;
@@ -153,7 +303,7 @@ color: #0065FC;
   
   margin-top: 20px;
   margin-bottom: 60px;
-  margin-left: 0px;
+  margin-left: 10px;
   margin-right: 0px;
 }
 
@@ -184,10 +334,11 @@ color: #0065FC;
 #foot{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   font-family: 'Raleway', sans-serif;
   background-color: #F2F2F2;
-  padding: 20px;
+  
+
 }
 
 

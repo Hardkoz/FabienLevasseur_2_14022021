@@ -1,26 +1,46 @@
 @charset "utf-8";
 /* CSS Document */
 
+.a0{
+  display: flex;
+   
+   
+    
+    
+}
 .a1{
- position: absolute;
- left: 60%;
- top: 2%;
- 
+  position: absolute;
+  right: 40%;
+  top: 0%;
+  padding-right: 0%;
+  padding-left: 0%;
+  border-bottom: none;
+  border-top: solid 2px #0065FC;
+  color: #0065FC;
+  padding-top: 2%;
   
 }
+ 
 
 .a2{
-  position: absolute;
-  left: 75%;
-  top: 2%
-  
+ 
+ right: 10%;
+  top: 0%;
+  padding-right: 10%;
+  border-bottom: none;
+  padding-top: 2%;
+ 
+ 
 }
 
 .a3{
-  position: absolute;
-right: 5%;
-top: 2%;
+  display: flex;
+top: 0%;
+right: 0%;
+padding-top: 2%;
+padding-right: 2%;
 }
+
 
 
  
@@ -75,6 +95,79 @@ top: 2%;
    margin: 0% 0% 1% 0%;
 }
 
+.titrefiltre
+{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.filtres
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 25px;
+	width: 50%;
+	margin-top:15px;
+	margin-bottom:15px;
+	text-align: center;
+	font-weight: bold;
+
+
+}
+
+.filtre
+{
+	border: 2px solid #F2F2F2;
+	border-radius: 25px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-right:20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+    background-color: white;
+}
+  
+.inblock
+{
+	background-color: #DEEBFF;
+	border: 0px solid white;
+	border-radius: 40px 40px 40px 40px;
+	margin-right: 10px;
+	padding: 14px 14px 14px 15px;
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
+    color: #0065FC;
+}
+
+
+.navigation{
+        display: flex;
+        flex-direction: column;
+        margin: 2% 2% 2% 2%;
+        
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    .news{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+  .info{
+      margin-left: 1%;
+}
+
 
 
 
@@ -108,65 +201,71 @@ top: 2%;
 
 /*Activités à Marseilles*/
 
+/*Activités à Marseilles*/
+
 .activity{
   display: flex;
   flex-direction: row;
-  margin: 5% 2% 2% 2%;
+  margin: 0% 0% 0% 0%;
+  flex-wrap: wrap;
+ 
   
   
   }
 
-.double{
-  display: flex;
-  flex-direction: column;
+  .double{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   
-  
-}
 
 .cards2{
-  width: 380px;
-  height: 600px;
+  width: 300px;
+  height: 200px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
+
   
 }
 
 .cards1{
-  width: 450px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
 
 .thumbnail2{
-  width: 450px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   
   margin-top: 5px;
-  margin-bottom: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-bottom: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .thumbnail1{
-  width: 380px;
-  height: 655px;
+  width: 300px;
+  height: 200px;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   
-  margin-top: 5px;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .name{
   margin:10px 0px 10px 15px;
 }
+
 
 /*----------------------*/
 

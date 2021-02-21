@@ -13,13 +13,7 @@ margin-left: 0% ;
   border-bottom:#0065FC solid 2px;
   padding-right: 20%;
   color: #0065FC;
- 
-  
-  
-  
- 
- 
-}
+ }
 
 .a2{
 
@@ -32,19 +26,6 @@ border-bottom: #F2F2F2 solid 2px;
 padding-right: 20%;
 margin: 0%;
 padding-left: 10%;
-
-  
- 
- 
-  
-
-
- 
- 
-  
-  
- 
- 
 }
 
 
@@ -90,20 +71,35 @@ color: #0065FC;
 	width: 150px;
     height: 15px;
     text-align: center;
-
+    
 }
 .research
 {
 	padding: 15px;
 	border: 1px solid #C5C5C5;
 	width: 80px;
-    height: auto;
+    height: 15px;
     text-align: center;
 	border-radius: 0px 15px 15px 0px;
 	background-color: #0065FC;
 	color: aliceblue;
+  opacity: 0;
+  display: none;
     
 }
+.research-phone{
+  padding: 15px;
+	border: 1px solid #C5C5C5;
+	width: 15px;
+    height: 15px;
+    text-align: center;
+	border-radius: 15px 15px 15px 15px;
+	background-color: #0065FC;
+	color: aliceblue;
+
+  
+}
+
 #location
 {
     display: flex;
@@ -112,24 +108,23 @@ color: #0065FC;
 .titrefiltre
 {
 	display: flex;
-	flex-direction: row;
-    align-items: center;
+flex-direction: column;
+    align-items: flex-start;
     margin-left: 0px;
-    
-}
+    width: 100%;
+    }
 .filtres
 {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin-left: 0px;
-	width: 50%;
+	width: 100%;
 	margin-top:15px;
 	margin-bottom:15px;
 	text-align: center;
 	font-weight: bold;
-
-
+  padding-right: 9%;
 }
 
 .filtre
@@ -193,59 +188,62 @@ color: #0065FC;
  background-color: #0065FC;
  color: white;
  border-radius: 50%;
-
 } 
 
-.row{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-
-}
-
 .main{
-  order: 2;
-  align-items: center;
-}
-
-.side{
   display: flex;
   flex-direction: column;
-  margin: 0;
-  align-items: center;
- order: 1;
- 
-  
+  padding: 6%;
+  justify-content: space-between;
 }
-
-.gallery  {
-  display: flex;
-  flex-direction: column;
+.hebergement{
   width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  margin: 2%;
+
  
-
-}
-
-.gallery1 {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.gallery3{
-  display: flex;
-  flex-direction: column;
-  width: 310px;
   
-
 }
-
 .cards{
-  width: 320px ;
+  width: 300px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+  
  
+  
+  
+}
+.hebergement-texte{
+  line-height: 1%;
 }
 
+.title{
+  margin-bottom: 10%;
+}
+
+.popular{
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  padding-top: 1%;
+  display: flex;  
+
+}
+.cards0{
+  width: 150px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+  padding-top: 1%;
+}
 
 
 /*Activités à Marseilles*/
@@ -254,16 +252,13 @@ color: #0065FC;
   display: flex;
   flex-direction: column;
   margin: 5% 0% 0% 0%;
- 
-  
-  
-  }
+  justify-content: center;
+ }
 
 .double{
   display: flex;
   flex-direction: column;
-  
-  
+  justify-content: center;
 }
 
 .cards2{
@@ -271,8 +266,7 @@ color: #0065FC;
   height: 200px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
-
-  
+  align-items: center;
 }
 
 .cards1{
@@ -280,6 +274,7 @@ color: #0065FC;
   height: 200px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
+  
 }
 
 .thumbnail2{
@@ -288,7 +283,7 @@ color: #0065FC;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  
+  justify-content: center;
   margin-top: 5px;
   margin-bottom: 60px;
   margin-left: 10px;
@@ -301,7 +296,7 @@ color: #0065FC;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 60px;
   margin-left: 10px;
@@ -311,35 +306,13 @@ color: #0065FC;
 .name{
   margin:10px 0px 10px 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*pied de page*/
 #foot{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   font-family: 'Raleway', sans-serif;
   background-color: #F2F2F2;
-  
-
 }
 
 

@@ -3,10 +3,6 @@
 
 .a0{
   display: flex;
-   
-   
-    
-    
 }
 .a1{
   position: absolute;
@@ -20,9 +16,7 @@
   padding-top: 2%;
   
 }
- 
-
-.a2{
+ .a2{
  
  right: 10%;
   top: 0%;
@@ -41,10 +35,7 @@ padding-top: 2%;
 padding-right: 2%;
 }
 
-
-
- 
-  .text{
+.text{
     padding: 2% 0% 0% 0%;
     line-height: 1.5em;
   }
@@ -87,7 +78,12 @@ padding-right: 2%;
 	border-radius: 0px 15px 15px 0px;
 	background-color: #0065FC;
 	color: aliceblue;
+  opacity: 1;
+  display: block;
     
+}
+.research-phone{
+  display: none;
 }
 #location
 {
@@ -109,7 +105,7 @@ padding-right: 2%;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-left: 25px;
-	width: 50%;
+	width: 80%;
 	margin-top:15px;
 	margin-bottom:15px;
 	text-align: center;
@@ -167,40 +163,6 @@ padding-right: 2%;
   .info{
       margin-left: 1%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Activités à Marseilles*/
-
 /*Activités à Marseilles*/
 
 .activity{
@@ -208,27 +170,19 @@ padding-right: 2%;
   flex-direction: row;
   margin: 0% 0% 0% 0%;
   flex-wrap: wrap;
- 
-  
-  
-  }
+ }
 
   .double{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
-
-.cards2{
+  .cards2{
   width: 300px;
   height: 200px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
-
-  
 }
-
 .cards1{
   width: 300px;
   height: 200px;
@@ -261,34 +215,9 @@ padding-right: 2%;
   margin-left: 0px;
   margin-right: 0px;
 }
-
 .name{
   margin:10px 0px 10px 15px;
 }
-
-
-/*----------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*pied de page*/
 

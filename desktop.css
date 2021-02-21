@@ -1,6 +1,4 @@
 body{
- 
-  
   font-family: 'Raleway', sans-serif;
 }
 
@@ -15,22 +13,14 @@ body{
   border-top: solid 2px #0065FC;
   color: #0065FC;
   padding-top: 2%;
-  
-
- 
-}
- 
-
-.a2{
- 
+  }
+ .a2{
  right: 5%;
   top: 0%;
   padding-right: 4%;
   border-bottom: none;
   padding-top: 2%;
- 
- 
-}
+ }
 
 .a3{
   display: flex;
@@ -71,7 +61,6 @@ padding-right: 2%;
 
  .map
 {
-	
 	border: 1px solid #F2F2F2;
 	padding: 15px;
 	width: 25px;
@@ -106,8 +95,9 @@ padding-right: 2%;
 	border-radius: 0px 15px 15px 0px;
 	background-color: #0065FC;
 	color: aliceblue;
-    
+  opacity: 1;
 }
+
 #location
 {
     display: flex;
@@ -120,15 +110,16 @@ padding-right: 2%;
 	flex-direction: row;
     align-items: center;
     margin-left: 10px;
+    width: 5%;
     
 }
 .filtres
 {
 	display: flex;
-	flex-wrap: wrap;
+	
 	justify-content: space-between;
-	margin-left: 25px;
-	width: 50%;
+	margin-left: 2px;
+	width: 70%;
 	margin-top:15px;
 	margin-bottom:15px;
 	text-align: center;
@@ -159,29 +150,26 @@ padding-right: 2%;
 	margin-right: 10px;
 	padding: 14px 14px 14px 15px;
 	display: flex;
-    flex-wrap: wrap;
+   
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
     color: #0065FC;
 }
 
-
 .navigation{
         display: flex;
         flex-direction: column;
         margin: 2% 2% 2% 2%;
-       
-        font-family: 'Raleway', sans-serif;
+      font-family: 'Raleway', sans-serif;
 
     }
 
-    .news{
+.news{
         display: flex;
         flex-direction: row;
         align-items: center;
-
-    }
+}
 
   .info{
       margin-left: 1%;
@@ -191,16 +179,13 @@ padding-right: 2%;
   display: flex;
   flex-direction: column;
   margin: 2% 2% 2% 2%;
- 
-  font-family: 'Raleway', sans-serif;
-
+ font-family: 'Raleway', sans-serif;
 }
 
 .news{
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 
 .info{
@@ -211,169 +196,113 @@ margin-left: 1%;
 background-color: #0065FC;
 color: white;
 border-radius: 50%;
-
 }
 
-
 .row {  
-display: flex;
-
-height:auto;
-width: 100%;
-padding: 1%;
-
-
-
+  display: flex;
+  
+  height:auto;
+  width: 95%;
+  padding: 1%;
 }
 
 .main {
-display: flex;
-flex-direction: column;
-margin-left: 1%;
-background-color: #f1f1f1;
-padding: 10px;
-margin-right: 2%;
-border-radius: 20px;
-flex-grow: 2;
-
-
-
-
-
+   display: flex;
+    flex-direction: row;
+     margin-left: 1%;
+      background-color: #f1f1f1;
+       padding: 1px;
+      margin-right: 1%;
+     border-radius: 20px;
+    width: 70%;
+   flex-wrap: wrap; 
 }
 
 
 
 .side {
-display: flex;
-flex-direction: column;
-
-background-color: #f1f1f1;
-padding: 10px;
-
-
-border-radius: 20px;
-flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 30%;
+  border-radius: 20px;
+ 
 }
 
-.gallery {
-display: flex;
-padding: auto;
-
-
-
+.hebergement{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  margin: 2%;
+  
 }
-
-.thumbnail {
-
-margin: 22px;
-border-radius: 15px;
-background-color: white;
-padding: 8px;
-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-
-
-
-} 
-
+.cards{
+  width: 300px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
 .title{
-margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
-.popular1{
 
-width: auto;
-height: auto;
-object-fit: cover;
-background-image: url('emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
-background-repeat: no-repeat;
-background-size: 50% 100%;
-border: 5px solid rgb(255, 255, 255);
-padding: 20px;
-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-border-radius: 15px;
-margin-bottom: 10%;
-background-color: white;
 
-}
-
-.popular2{
-width: auto;
-height: 180px;
-object-fit: cover;
-background-image: url('aw-creative-VGs8z60yT2c-unsplash.jpg');
-background-repeat: no-repeat;
-background-size: 50% 100%;
-border: 5px solid rgb(255, 255, 255);
-padding: 20px;
-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-border-radius: 15px;
-margin-bottom: 10%;
-background-color: white;
-}
-
-.popular3{
-width: auto;
-height: 180px;
-object-fit: cover;
-background-image: url('febrian-zakaria-sjvU0THccQA-unsplash.jpg');
-background-repeat: no-repeat;
-background-size: 50% 100%;
-border: 5px solid rgb(255, 255, 255);
-padding: 20px;
-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-border-radius: 15px;
-background-color: white;
-}
-
-.populartext{
-display: flex;
-flex-direction: column;
-
-padding: 0px 0px 0px 250px;
-
-}
 .cards{
 border-radius: 15px;
 }
+.popular{
+  width: 450px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  
+  padding-top: 1%;
+  display: flex;  
 
+}
+.cards0{
+  width: 150px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+  padding-top: 1%;
+}
 img.thumbnail{
-
 border-radius: 50px;
 border: 1px solid #ccc;
 }
-
+  
 .gallery1 {
-display: flex;
-
+  display: flex;
+  
 }
 
 #blue-star{
-color: #0065FC;
+  color: #0065FC;
 }
 
 #grey-star{
-
-color: #f1f1f1;
+   color: #f1f1f1;
 }
-
 
 /*Activités à Marseilles*/
 
 .activity{
   display: flex;
   flex-direction: row;
-  margin: 5% 2% 2% 2%;
+  margin: 5% 2% 2% 0%;
   background-color: white;
-  
-  
-  }
+}
 
 .double{
   display: flex;
   flex-direction: column;
-  
-  
 }
 
 .cards2{
@@ -381,7 +310,6 @@ color: #f1f1f1;
   height: 600px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
-  
 }
 
 .cards1{
@@ -397,7 +325,6 @@ color: #f1f1f1;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  
   margin-top: 5px;
   margin-bottom: 50px;
   margin-left: 20px;
@@ -410,8 +337,7 @@ color: #f1f1f1;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  
-  margin-top: 5px;
+   margin-top: 5px;
   margin-bottom: 10px;
   margin-left: 20px;
   margin-right: 20px;
@@ -422,40 +348,6 @@ color: #f1f1f1;
 }
 
 /*----------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*pied de page*/
 

@@ -1,7 +1,24 @@
+html {
+  border:1px solid rgb(255, 8, 0);
+  width: auto;
+  margin: 0;
+  padding: 0;
+  }
 body{
+margin: 0;
   font-family: 'Raleway', sans-serif;
+  border:1px solid rgb(255, 8, 0);
+  width: auto;
+  margin: 0;
+  padding: 0;
+
 }
 
+/*header*/
+.logo{
+  padding: 2%;
+    
+  }
 
 .a1{
   position: absolute;
@@ -14,25 +31,26 @@ body{
   color: #0065FC;
   padding-top: 2%;
   }
- .a2{
- right: 5%;
-  top: 0%;
-  padding-right: 4%;
-  border-bottom: none;
-  padding-top: 2%;
- }
+  .a2{
+    right: 5%;
+     top: 0.5%;
+     padding-right: 4%;
+     border-bottom: none;
+     padding-top: 2%;
+    }
 
 .a3{
   display: flex;
-top: 0%;
+top: 0.5%;
 right: 0%;
 padding-top: 2%;
 padding-right: 2%;
 }
 
 .text{
-  padding: 5% 10% 0% 0%;
+  margin-left: 2%;
   line-height: 1.5em;
+  padding: 0% 0% 0% 0%;
 }
 
 .text1{
@@ -68,6 +86,7 @@ padding-right: 2%;
     text-align: center;
 	border-radius: 15px 0px 0px 15px;
 	background-color: #F2F2F2;
+  
 }
 .place
 {
@@ -78,13 +97,7 @@ padding-right: 2%;
     text-align: center;
 }
 
-#pseudo{
-   border: 0px;
-	width: 150px;
-    height: 15px;
-    text-align: center;
 
-}
 .research
 {
 	padding: 15px;
@@ -101,7 +114,9 @@ padding-right: 2%;
 #location
 {
     display: flex;
-   margin: 0% 0% 1% 0%;
+    padding: 5% 0% 5% 2%;
+    
+   
 }
 
 .titrefiltre
@@ -109,7 +124,7 @@ padding-right: 2%;
 	display: flex;
 	flex-direction: row;
     align-items: center;
-    margin-left: 10px;
+    
     width: 5%;
     
 }
@@ -118,12 +133,13 @@ padding-right: 2%;
 	display: flex;
 	
 	justify-content: space-between;
-	margin-left: 2px;
+
 	width: 70%;
 	margin-top:15px;
 	margin-bottom:15px;
 	text-align: center;
 	font-weight: bold;
+  
 
 
 }
@@ -147,7 +163,7 @@ padding-right: 2%;
 	background-color: #DEEBFF;
 	border: 0px solid white;
 	border-radius: 40px 40px 40px 40px;
-	margin-right: 10px;
+	
 	padding: 14px 14px 14px 15px;
 	display: flex;
    
@@ -160,7 +176,7 @@ padding-right: 2%;
 .navigation{
         display: flex;
         flex-direction: column;
-        margin: 2% 2% 2% 2%;
+       
       font-family: 'Raleway', sans-serif;
 
     }
@@ -171,14 +187,12 @@ padding-right: 2%;
         align-items: center;
 }
 
-  .info{
-      margin-left: 1%;
-}
+
 
 .navigation{
   display: flex;
   flex-direction: column;
-  margin: 2% 2% 2% 2%;
+ 
  font-family: 'Raleway', sans-serif;
 }
 
@@ -188,9 +202,7 @@ padding-right: 2%;
   align-items: center;
 }
 
-.info{
-margin-left: 1%;
-}
+
 
 #icom{
 background-color: #0065FC;
@@ -200,22 +212,23 @@ border-radius: 50%;
 
 .row {  
   display: flex;
-  
+  margin: 0;
   height:auto;
-  width: 95%;
-  padding: 1%;
+  flex-direction: row;
+  width: auto;
+  
+  
 }
 
 .main {
    display: flex;
     flex-direction: row;
-     margin-left: 1%;
-      background-color: #f1f1f1;
-       padding: 1px;
-      margin-right: 1%;
+     background-color: #f1f1f1;
+    padding-left: 0%;
      border-radius: 20px;
-    width: 70%;
+    width: 100%;
    flex-wrap: wrap; 
+   order: 1;
 }
 
 
@@ -225,45 +238,64 @@ border-radius: 50%;
   flex-direction: column;
   background-color: #f1f1f1;
   padding: 10px;
-  width: 30%;
+  width: 50%;
   border-radius: 20px;
+  order: 2;
+  margin-right: 2%;
+  
+ 
  
 }
 
+.title-h{
+  width: 100%;
+}
+
 .hebergement{
-  width: 300px;
+  width: 250px;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   justify-content: center;
-  margin: 2%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  padding: 1%;
+  margin-right: 2%;
+  
+  
+ 
+  
   
 }
 .cards{
-  width: 300px;
+  width: 250px;
   height: 100px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
+  padding: 0%;
 }
+
 .title{
-  margin-bottom: 10%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+
 }
 
 
 
-.cards{
-border-radius: 15px;
-}
+
 .popular{
-  width: 450px;
-  height: 200px;
+  width: auto;
+  height: 190px;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  padding: 1%;
   
-  padding-top: 1%;
-  display: flex;  
+  
+  
 
 }
 .cards0{
@@ -271,17 +303,12 @@ border-radius: 15px;
   height: 190px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
-  padding-top: 1%;
-}
-img.thumbnail{
-border-radius: 50px;
-border: 1px solid #ccc;
-}
   
-.gallery1 {
-  display: flex;
-  
+
 }
+
+  
+
 
 #blue-star{
   color: #0065FC;
@@ -296,8 +323,11 @@ border: 1px solid #ccc;
 .activity{
   display: flex;
   flex-direction: row;
-  margin: 5% 2% 2% 0%;
-  background-color: white;
+  margin: 0%;
+ 
+  }
+.title-a{
+  width: 100%;
 }
 
 .double{
@@ -306,46 +336,39 @@ border: 1px solid #ccc;
 }
 
 .cards2{
-  width: 380px;
+  width: 320px;
   height: 600px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
 
 .cards1{
-  width: 450px;
+  width: 400px;
   height: 250px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
 
 .thumbnail2{
-  width: 450px;
+  width: 400px;
   height: 300px;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  margin-top: 5px;
-  margin-bottom: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  
 }
 
 .thumbnail1{
-  width: 380px;
+  width: 320px;
   height: 655px;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-   margin-top: 5px;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  
+ 
 }
 
-.name{
-  margin:10px 0px 10px 15px;
-}
+
 
 /*----------------------*/
 
@@ -357,6 +380,7 @@ border: 1px solid #ccc;
   font-family: 'Raleway', sans-serif;
   background-color: #F2F2F2;
   padding: 0px;
+  margin: 0;
 }
 
 .help{

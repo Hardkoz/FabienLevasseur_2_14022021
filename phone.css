@@ -96,10 +96,7 @@ width: 50%;
   right: 1rem;
 }
 
-.titrefiltre{
-  display: flex;
- padding-left: 5%;
-}
+
 
 .button {
   display: flex;
@@ -117,20 +114,27 @@ width: 50%;
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
-    color: #0065FC;
-    border:2px  #0065FC;
-    border-radius: 80px;
-    background-color: #DEEBFF ;
-    padding: 12px 12px;
-    position: relative;
-    right: 3% ;
+  color: #0065FC;
+  border:2px  #0065FC;
+  border-radius: 80px;
+  background-color: #DEEBFF ;
+  padding: 12px 12px;
+  position: relative;
+  right: 3% ;
   }
 
-.news{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-items: baseline;
+  .news{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: baseline;
+    }
+
+  #icom{
+    background-color: #0065FC;
+    color: white;
+    border-radius: 50%;
+    margin-left: 1rem;
   }
 
  
@@ -139,17 +143,15 @@ width: 50%;
  color: white;
  border-radius: 360% ;
  border: #C5C5C5 solid 2px;
- margin-right: 3%;
- margin-left: 5%;
+ margin-right: 1rem;
+ 
 } 
 
-.info{
-  align-items: baseline;
-}
+
 
 .row {  
 display: flex;
- width: 100%;
+width: 100%;
 height:auto;
 flex-direction: column;
 }
@@ -160,7 +162,6 @@ flex-direction: column;
   background-color: #f1f1f1 ;
   padding: 0rem 1.5rem 2rem 1.5rem;
   order: 1;
-  
 }
 
 .main{
@@ -179,7 +180,7 @@ flex-direction: column;
 
 .hebergement{
   width: 85vw;
-  height: 24vh;
+  height: 30vh;
   object-fit: contain;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -191,9 +192,9 @@ flex-direction: column;
 
 .cards{
   width: 100%;
-  height: 100px;
+  height: 15vh;
   object-fit: cover;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 1rem 1rem 0rem 0rem;
  }
 
 .hebergement-texte{

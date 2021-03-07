@@ -3,28 +3,15 @@ body{
   margin: 0%;
 }
 
-
 .text{
   margin-left: 2%;
   line-height: 1.5em;
-  padding: 0% 0% 0% 0%;
-}
+ }
 
 .text1{
   line-height: 0.5em;
 }
   
-.navigation {
-  display: flex;
-  justify-content:flex-start;
-}
-
-#icom {
-  background-color: #0065FC;
-  color: white;
-  border-radius: 50%;
-} 
- 
 .map {
 	border: 1px solid #F2F2F2;
 	padding: 15px;
@@ -39,7 +26,6 @@ body{
   padding: 15px;
   border: 1px solid #F2F2F2;
   width: 100%;
-  height: auto;
   text-align: center;
 }
 
@@ -48,7 +34,6 @@ body{
 	padding: 15px;
 	border: 1px solid #C5C5C5;
 	width: 80px;
-  height: auto;
   text-align: center;
 	border-radius: 0px 15px 15px 0px;
 	background-color: #0065FC;
@@ -71,15 +56,6 @@ body{
   margin-left: 1vw;
 }
 
-.titrefiltre {
-	display: flex;
-	flex-direction: row;
-}
-
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
-    color: #0065FC;
-  }
-
 .news{
   display: flex;
   flex-direction: row;
@@ -96,10 +72,8 @@ body{
 
 .row {  
   display: flex;
-  margin: 0;
   height:auto;
   flex-direction: row;
-  width: auto;
 }
 
 .main {
@@ -125,10 +99,6 @@ body{
   order: 2;
 }
 
-.title-h {
-  width: 100%;
-}
-
 .hebergement{
   width: 15vw;
   height: 200px;
@@ -143,14 +113,9 @@ body{
   height: 100px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
-  padding: 0%;
 }
-/*Partie les plus populaire*/
 
-.title{
-  display: flex;
-  flex-direction: row;
- }
+/*Partie les plus populaire*/
 
 .popular{
   width: 24rem;
@@ -159,7 +124,6 @@ body{
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   align-items: center;
-  padding-top: 0;
 }
 
 .cards0{
@@ -170,15 +134,11 @@ body{
 }
 
 .populartext{
-  
   justify-content:start;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 0;
-}
-
-/*---------*/
-
+}  
+  
 #blue-star{
   color: #0065FC;
 }
@@ -206,7 +166,7 @@ body{
   width: 20vw;
   height: 35vw;
   object-fit: cover;
-  border-radius: 1vw 1vw 0px 0px;
+  border-radius: 1vw 1vw 0vw 0;
 }
 
 .cards2{
@@ -230,27 +190,10 @@ body{
   box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
 }
 
-.name{
-  margin:0;
-}
 
-.name1{
-  margin:0;
-}
 
-/*----------------------*/
 
-/*pied de page*/
 
-#foot{
-  display: flex;
-  justify-content: flex-start;
-  font-family: 'Raleway', sans-serif;
-  background-color: #F2F2F2;
-}
 
-.help{
-  flex-grow: 1;
-}
 
 

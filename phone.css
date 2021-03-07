@@ -5,43 +5,46 @@ body{
   margin: 0%;
 }
 /*header*/
+.logo{
+  padding: 2rem 0rem 0rem 1rem;
+
+}
 .menu-element{
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  text-align: center;
+  justify-content: space-between;
+  
 }
 
-.logo{
-  position: absolute;
-  left: 0%;
-  margin-left: 5%;
-}
+
+
+
 
 .menu-element1{
-  display: flex;
-  padding-top: 2.5rem;
-  
-  
-  
- }
+
+border-bottom: 2px solid #0065FC;
+line-height: 3rem;
+width: 50%;
+}
 
 .menu-element2{
-  display: flex;
-  padding-top: 2.5rem; 
-  left: 3rem;
-  position: relative;
-  }
 
-
-.menu-element3{
-  display: flex;
-  padding: 1.5rem;
-color: #0065FC;
+border-bottom: 2px solid #f1f1f1;
+line-height: 3rem;
+width: 50%;
 }
+ 
+.menu-element3{
+ position:absolute;
+ right: 1rem;
+ top: 3rem;
+}
+
 .text{
   padding: 20% 10% 0% 5%;
   line-height: 1.5em;
-  }
+}
 
 .text1{
   line-height: 1.5em;
@@ -51,36 +54,38 @@ color: #0065FC;
   display: flex;
   align-items: center;
   margin-left: 5%;
-  }
+}
+
 .map{
 	border: 1px solid #F2F2F2;
 	padding: 1rem;
 	width: 25px;
-    height: auto;
-    text-align: center;
+  height: auto;
+  text-align: center;
 	border-radius: 15px 0px 0px 15px;
 	background-color: #F2F2F2;
 }
 
 #fname{
   outline: 0;
+  width: 100%;
   padding: 1rem 0.1rem 1rem 1rem;
   border: 0.1rem solid #F2F2F2;
 }
 
 
 .research{
-  
   display: none;
   padding: 15px;
 	border: 1px solid #C5C5C5;
 	width: 80px;
-    height: auto;
-    text-align: center;
+  height: auto;
+  text-align: center;
 	border-radius: 0px 15px 15px 0px;
 	background-color: #0065FC;
 	color: aliceblue;
 }
+
 .research-phone{
   display: flex;
   background-color: #0065FC;
@@ -90,10 +95,12 @@ color: #0065FC;
   position: relative;
   right: 1rem;
 }
+
 .titrefiltre{
   display: flex;
  padding-left: 5%;
 }
+
 .button {
   display: flex;
   border:1px solid #C5C5C5;
@@ -107,7 +114,7 @@ color: #0065FC;
   cursor: pointer;
   color: black;
   margin-left: 5%;
-  }
+}
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
     color: #0065FC;
@@ -118,12 +125,13 @@ color: #0065FC;
     position: relative;
     right: 3% ;
   }
+
 .news{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        align-items: baseline;
-        }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: baseline;
+  }
 
  
 .fa-info-circle{
@@ -131,35 +139,30 @@ color: #0065FC;
  color: white;
  border-radius: 360% ;
  border: #C5C5C5 solid 2px;
-margin-right: 3%;
-margin-left: 5%;
+ margin-right: 3%;
+ margin-left: 5%;
 } 
+
 .info{
   align-items: baseline;
 }
+
 .row {  
-  display: flex;
+display: flex;
  width: 100%;
-  height:auto;
-  flex-direction: column;
-  margin-right: 0%;
-  margin-left: 0%;
-  }
+height:auto;
+flex-direction: column;
+}
 
 .side {
   display: flex;
   flex-direction: column;
   background-color: #f1f1f1 ;
-  height: auto;
-  width: auto;
+  padding: 0rem 1.5rem 2rem 1.5rem;
   order: 1;
-  padding: 0;
-  margin-right: 0%;
-  padding-left: 5%;
-  
-  
   
 }
+
 .main{
   display: flex;
   flex-direction: column;
@@ -167,15 +170,16 @@ margin-left: 5%;
   order: 2;
   width: auto;
   align-items:flex-start;
-  margin-left: 5%;
+  padding: 0rem 1.5rem 2rem 1.5rem;
 }
+
 .title-h{
   display: flex;
- 
 }
+
 .hebergement{
-  width: 90%;
-  height: 200px;
+  width: 85vw;
+  height: 24vh;
   object-fit: contain;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -184,26 +188,28 @@ margin-left: 5%;
   margin-top: 3%;
   padding: 2%;
 }
+
 .cards{
   width: 100%;
   height: 100px;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
  }
+
 .hebergement-texte{
-  line-height: 1%;
+  line-height: 0rem;
 }
 
 .title{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
- margin-right: 8%;
+  margin-right: 8%;
 }
 
 .popular{
-  width: 90%;
-  height: 150px;
+  width: 85vw;
+  height: 18vh;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 2%;
@@ -211,14 +217,15 @@ margin-left: 5%;
   flex-direction: row;
   margin-bottom: 3%;
   margin-top: 3%;
-  
- }
+}
+
 .cards0{
   width: 6rem;
   height: 150px;
   border-radius: 15px 0px 0px 15px;
   object-fit: cover;
 }
+
 .populartext{
   justify-content:start;
   padding-left: 4%;
@@ -228,12 +235,13 @@ margin-left: 5%;
 #blue-star{
   color: #0065FC;
   line-height: 4rem;
-  }
+}
 
 #grey-star{
-   color: #cecccc;
-   line-height: 4rem;
+ color: #cecccc;
+ line-height: 4rem;
 }
+
 /*Activités à Marseilles*/
 
 .activity{
@@ -242,7 +250,7 @@ margin-left: 5%;
   justify-content: center;
   padding: 1rem;
   justify-content: center;
- }
+}
 
 .double{
   display: flex;
@@ -286,21 +294,23 @@ margin-left: 5%;
   margin-bottom: 10%;
   margin-top: 3%;
 }
+
 .name{
   margin:15px 0px 10px 20px;
 }
+
 .name1{
   margin:0px 0px 10px 20px;
 }
 
 /*pied de page*/
+
 #foot{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   font-family: 'Raleway', sans-serif;
   background-color: #F2F2F2;
- 
-}
+ }
 
 

@@ -7,43 +7,48 @@ body{
 
 
 /*header*/
+.logo{
+  position: absolute;
+  
+}
 .menu-element{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.logo{
-  position: absolute;
-  left: 0%;
-}
-
 .menu-element1{
+  border-bottom: none;
   display: flex;
- padding: 1.5rem;
+width: inherit;
+line-height: 3rem;
+padding: 2rem;
+border-top: #0065FC 0.1rem solid;
 }
 
 .menu-element2{
+  border-bottom: none;
   display: flex;
-  padding: 1.5rem;
-  position: none;
-  left: 0;
+  width: inherit;
+  line-height: 3.5rem;
+  padding: 1.9rem;
 }
-
 
 .menu-element3{
   display: flex;
-  padding: 1.5rem;
-color: #0065FC;
-
-
+  position:inherit;
+  right: inherit;
+  top: inherit;
+  padding: 1.9rem;
+  line-height: 3.5rem;
+  color: #0065FC;
 }
+
 .text{
   margin-left: 2%;
   line-height: 1.5em;
   padding: 0% 0% 0% 0%;
 }
-
 
 .text{
   margin-left: 2%;
@@ -58,21 +63,18 @@ color: #0065FC;
 .navigation{
   display: flex;
   justify-content:flex-start;
-
 }
 
 #icom{
   background-color: #0065FC;
   color: white;
   border-radius: 50%;
- 
  } 
  
  .news{
   display: flex;
   flex-direction: row;
   align-items: center;
- 
  }
 
  .map
@@ -90,7 +92,7 @@ color: #0065FC;
 {
 	padding: 15px;
 	border: 1px solid #F2F2F2;
-	width: 150px;
+	width: 100%;
     height: auto;
     text-align: center;
 }
@@ -201,18 +203,7 @@ color: #0065FC;
 
 
 
-.navigation{
-  display: flex;
-  flex-direction: column;
- 
- font-family: 'Raleway', sans-serif;
-}
 
-.news{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
 
 

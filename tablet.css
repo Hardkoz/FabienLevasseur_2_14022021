@@ -62,15 +62,14 @@ border-top: #0065FC 0.1rem solid;
   text-align: center;
 	border-radius: 15px 0px 0px 15px;
 	background-color: #F2F2F2;
+  margin-left: 1rem;
 }
 
-.place
-{
-	padding: 15px;
-	border: 1px solid #F2F2F2;
-	width: 100%;
-  height: auto;
-  text-align: center;
+#fname{
+  outline: 0;
+  width: 20vw;
+  padding: 1rem 0.1rem 1rem 1rem;
+  border: 0.1rem solid #F2F2F2;
 }
 
 .research{
@@ -98,7 +97,8 @@ border-top: #0065FC 0.1rem solid;
 
 #location{
   display: flex;
-  padding: 5% 0% 5% 2%;
+  padding: 5% 0% 5% 0%;
+  margin-left: 1rem;
 }
 
 .filtre {
@@ -200,16 +200,19 @@ border-top: #0065FC 0.1rem solid;
 .activity{
   display: flex;
   flex-direction: row;
-  margin: 2vw;
-  justify-content: center;
+  margin: 1.4vw;
+  
   flex-wrap: wrap;
 }
-
-
 .double{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+ 
+}
+
+.title-a{
+  display: flex;
+  width: 100%;
 }
 
 .cards1{
@@ -231,6 +234,7 @@ border-top: #0065FC 0.1rem solid;
   height: 20vw;
   border-radius: 1vw;
   box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+  margin: 0.5rem;
 }
 
 .thumbnail2{
@@ -238,7 +242,7 @@ border-top: #0065FC 0.1rem solid;
   height: 20vw;
   border-radius: 1vw;
   box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
-  margin: 1vw;
+  margin: 0.5rem;
 }
 
 /*pied de page*/

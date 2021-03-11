@@ -18,21 +18,26 @@ body{
 }
 
 .menu-element1{
-border-bottom: 0.1rem solid #0065FC;
+border-bottom: 0.3rem solid #0065FC;
 line-height: 3rem;
 width: 50rem;
+text-decoration: none;
+color: #0065FC;
 }
 
 .menu-element2{
-border-bottom: 0.1rem solid #f1f1f1;
+border-bottom: 0.3rem solid #f1f1f1;
 line-height: 3rem;
 width: 50rem;
+text-decoration: none;
+color: black;
 }
  
 .menu-element3{
  position:absolute;
  right: 1rem;
  top: 3rem;
+ color: #0065FC;
 }
 
 .text{
@@ -48,7 +53,7 @@ width: 50rem;
 #location{
   display: flex;
   align-items: center;
-  margin-left: 1.4rem;
+ margin-left: 1rem;
 }
 
 .map{
@@ -157,8 +162,8 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
   background-color: #f1f1f1 ;
-  padding: 0rem 1.5rem 2rem 1.5rem;
   order: 1;
+  width: auto;
   margin-bottom: 2rem;
 }
 
@@ -168,68 +173,74 @@ flex-direction: column;
   justify-content: space-between;
   order: 2;
   width: auto;
-  align-items:flex-start;
-  padding: 0rem 1.5rem 2rem 1.5rem;
+ 
 }
 
 .title-h{
   display: flex;
+  margin-left: 1rem;
+  
+  
 }
 
 .hebergement{
-  width: 84vw;
-  height: 30vh;
-  object-fit: contain;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  justify-content: center;
-  margin-bottom: 3%;
-  margin-top: 3%;
-  padding: 2%;
+  width: 18rem;
+  height: 12rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+ 
+  
   background-color: white; 
+  margin: 0.5rem;
 }
 
 .cards{
-  width: 100%;
-  height: 15vh;
+  width: 18rem;
+  height: 7rem;
   object-fit: cover;
   border-radius: 1rem 1rem 0rem 0rem;
  }
 
 .hebergement-texte{
   line-height: 0rem;
+  padding-left: 1rem;
 }
 
 .title{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-right: 8%;
+  justify-content: space-around;
+  
+  
 }
 
 .popular{
-  width: 84vw;
-  height: 20vh;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 18rem;
+  height: 9rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
   background-color: white; 
   display: flex;
   flex-direction: row;
-  margin-bottom: 3%;
-  margin-top: 0%;
+  
+  
+  padding: 0.3rem;
+  margin: 0.5rem;
 }
 
 .cards0{
-  width: 35vw;
-  height: 20vh;
-  border-radius: 15px 0px 0px 15px;
+  width: 6rem;
+  height: 9rem;
+  border-radius: 1rem 0rem 0rem 1rem;
   object-fit: cover;
 }
 
 .populartitle{
   justify-content:start;
-  padding-left: 4%;
+  padding-left: 1rem;
   padding-bottom: 2rem;
+  padding-right: 1rem;
   
 }
 
@@ -237,14 +248,17 @@ flex-direction: column;
   line-height: 0rem;
 }
 
+.star{
+  line-height: 5rem;
+}
 #blue-star{
   color: #0065FC;
-  line-height: 3rem;
+  
 }
 
 #grey-star{
  color: #cecccc;
- line-height: 3rem;
+
 }
 
 /*Activités à Marseilles*/
@@ -252,28 +266,29 @@ flex-direction: column;
 .activity{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-left: 1.4rem;
+  padding: 1rem;
+  
+  
 }
 
 .cards1{
-  width: 84vw;
-  height: 20vh;
+  width: 18rem;
+  height: 7rem;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
   
 }
 
 .cards2{
-  width: 84vw;
-  height: 20vh;
+  width: 18rem;
+  height: 7rem;
   object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
 
 .thumbnail1{
-  width: 84vw;
-  height: 30vh;
+  width: 18rem;
+  height: 10rem;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 3%;
@@ -282,8 +297,8 @@ flex-direction: column;
 }
 
 .thumbnail2{
-  width: 84vw;
-  height: 30vh;
+  width: 18rem;
+  height: 10rem;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 3%;
@@ -291,6 +306,9 @@ flex-direction: column;
   background-color: white; 
 }
 
+.name{
+  padding-left: 1rem;
+}
 /*pied de page*/
 
 #foot{

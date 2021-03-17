@@ -85,8 +85,9 @@ align-items: baseline;
 
 .row {  
   display: flex;
-  height:auto;
+  height:85vh;
   flex-direction: row;
+ 
   
 }
 
@@ -96,11 +97,16 @@ align-items: baseline;
   background-color: #f1f1f1;
   border-radius: 1vw;
   width: 70%;
+  height: 82vh;
   flex-wrap: wrap; 
   order: 1;
-  margin-right: 4rem;
+  margin-right: 2rem;
   margin-left: 2rem;
-  justify-content:space-evenly;
+  
+  
+  
+  
+  
 }
 
 .side {
@@ -108,28 +114,38 @@ align-items: baseline;
   flex-direction: column;
   background-color: #f1f1f1;
   margin-right: 2rem;
- 
-  width: 30%;
   
+   width: 30%;
+   height: 82vh;
   border-radius: 1rem;
   order: 2;
+  justify-content: flex-start;
 }
 
 .title-h{
-  margin-left: 4rem;
-  margin-top: 1rem;
+ font-size: 1.5rem;
+ font-weight: 900;
+ margin-top: 1rem;
+ margin-left: 2rem;
 }
+
 .hebergement{
-  width: 15vw;
-  height: 20vh;
+  width: 19vw;
+  height: 25vh;
    border-radius: 1rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+ 
+  
+  
+ 
+  
+ 
  
 }
 
 .cards{
-  width: 15vw;
-  height: 10vh;
+  width: 19vw;
+  height: 15vh;
   object-fit: cover;
   border-radius: 1rem 1rem 0rem 0rem;
   
@@ -141,27 +157,40 @@ align-items: baseline;
 }
 
 .display{
-  margin-left: 4rem;
+  margin-left: 2rem;
+ font-size: 1.2rem;
 }
 /*Partie les plus populaire*/
-
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  width: 90%;
+  font-size: 1.5rem;
+ font-weight: 900;
+ margin: 1rem 0rem 0rem 0rem;
+ 
+  
+}
 .popular{
   width: 25vw;
-  height: 19vh;
+  height: 18vh;
   border-radius: 1rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  margin: 1rem 0rem 1rem 0rem;
+  margin: 2.8rem 0rem 0rem 0rem;
+  
+  
 }
 
 .cards0{
   width: 10vw;
-  height: 19vh;
+  height: 18vh;
   object-fit: cover;
   border-radius: 1rem 0rem 0rem 1rem;
 }
 
 .populartitle {
- margin-right: 0rem;
+ margin-right: 1rem;
 }  
 
 .star{
@@ -183,18 +212,22 @@ align-items: baseline;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin-left: 2rem;
+  margin-left: 0.5rem;
   flex-wrap: wrap;
+  padding: 0rem;
+  margin-bottom: 3rem;
 }
  
 .double{
   display: flex;
   flex-direction: column;
+  margin-left: 1.3rem;
+  margin-right: 1.5rem;
 }
 .title-a{
   display: flex;
   width: 100%;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .cards1{

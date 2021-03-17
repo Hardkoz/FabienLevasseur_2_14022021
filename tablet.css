@@ -105,6 +105,12 @@ border-top: #0065FC 0.2rem solid;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+ 
+  align-items: baseline;
+}
+
+.button{
+  margin-left: 1rem;
 }
   
 .row {  
@@ -132,6 +138,7 @@ border-top: #0065FC 0.2rem solid;
   background-color: #f1f1f1;
   order: 1;
   width: auto;
+  justify-content: space-evenly;
   
   
 }
@@ -166,9 +173,10 @@ border-top: #0065FC 0.2rem solid;
 .title{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly ;
+  justify-content: baseline ;
+  margin: 0rem 4rem 0rem 4rem;
   width: 100%;
-  padding-left: 0rem;
+  
   
 }
 .popular{

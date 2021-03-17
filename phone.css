@@ -43,7 +43,7 @@ color: black;
 .text{
   padding: 2rem 1rem 0rem 0rem;
   line-height: 1.5em;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .text1{
@@ -109,7 +109,7 @@ color: black;
   text-decoration: none;
   display: inline-block;
   font-size: 1rem;
-  margin: 0rem 0.5rem 1rem ;
+  margin: 0rem 0.5rem 1rem 0.1rem;
   cursor: pointer;
   color: black;
  
@@ -128,8 +128,9 @@ color: black;
   .news{
     display: flex;
     flex-direction: row;
-    align-items: center;
+   
     align-items: baseline;
+    margin-left: 0rem;
     }
 
   #icom{
@@ -146,6 +147,7 @@ color: black;
  border-radius: 360% ;
  border: #C5C5C5 solid 2px;
  margin-right: 1rem;
+ margin-left: 0rem;
  
 } 
 
@@ -165,6 +167,7 @@ flex-direction: column;
   order: 1;
   width: auto;
   margin-bottom: 2rem;
+  align-items: center;
 }
 
 .main{
@@ -173,12 +176,17 @@ flex-direction: column;
   justify-content: space-between;
   order: 2;
   width: auto;
+  align-items: center;
  
 }
 
 .title-h{
   display: flex;
   margin-left: 1rem;
+  align-self: start;
+  font-size: 1.1rem;
+ font-weight: 900;
+  
   
   
 }
@@ -207,11 +215,21 @@ flex-direction: column;
   padding-left: 1rem;
 }
 
+.display{
+  width: 100%;
+  margin-left: 1.5rem;
+ font-size: 1rem;
+}
+
 .title{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  
+  justify-content: space-between ;
+  width: 90%;
+  font-size: 1.2rem;
+ font-weight: 900;
+ margin-top: 1rem;
+ 
   
 }
 
@@ -251,12 +269,12 @@ flex-direction: column;
 .star{
   line-height: 5rem;
 }
-#blue-star{
+.blue-star{
   color: #0065FC;
   
 }
 
-#grey-star{
+.grey-star{
  color: #cecccc;
 
 }
@@ -294,6 +312,7 @@ flex-direction: column;
   margin-bottom: 3%;
   margin-top: 3%;
   background-color: white; 
+  
 }
 
 .thumbnail2{
@@ -316,6 +335,11 @@ flex-direction: column;
   flex-direction: column;
   justify-content: flex-start;
   background-color: #F2F2F2;
+ 
 }
 
-
+.foot-title{
+  line-height: 3rem;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}

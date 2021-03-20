@@ -127,6 +127,7 @@ align-items: baseline;
  font-weight: 900;
  margin-top: 1rem;
  margin-left: 2rem;
+ padding: 0rem;
 }
 
 .hebergement{
@@ -169,6 +170,7 @@ align-items: baseline;
   font-size: 1.5rem;
  font-weight: 900;
  margin: 1rem 0rem 1rem 0rem;
+ padding: 0rem ;
  
   
 }

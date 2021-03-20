@@ -24,7 +24,7 @@ body{
 
 #fname{
   outline: 0;
-  width: 10rem;
+  width: 11rem;
   padding: 1rem 0.1rem 1rem 1rem;
   border: 0.1rem solid #F2F2F2;
 }
@@ -168,7 +168,7 @@ align-items: baseline;
   width: 90%;
   font-size: 1.5rem;
  font-weight: 900;
- margin: 1rem 0rem 0rem 0rem;
+ margin: 1rem 0rem 1rem 0rem;
  
   
 }
@@ -227,32 +227,34 @@ align-items: baseline;
 .title-a{
   display: flex;
   width: 100%;
-  margin-left: 1.5rem;
+  margin-left: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .cards1{
-  width: 22vw;
+  width: 21vw;
   height: 28vw;
   object-fit: cover;
   border-radius: 1vw 1vw 0vw 0;
 }
 
 .cards2{
-  width: 22vw;
+  width: 21vw;
   height: 12vw;
   object-fit: cover;
   border-radius: 1vw 1vw 0px 0px;
 }
 
 .thumbnail1{
-  width: 22vw;
+  width: 21vw;
   height: 31vw;
   border-radius: 1vw;
   box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
 }
 
 .thumbnail2{
-  width: 22vw;
+  width: 21vw;
   height: 15vw;
   border-radius: 1vw;
   box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);

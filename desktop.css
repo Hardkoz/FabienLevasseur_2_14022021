@@ -1,48 +1,48 @@
-body{
-  font-family: 'Raleway', sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
   margin: 0%;
 }
 
-.text{
+.text {
   margin-left: 2rem;
   line-height: 1.5em;
- }
+}
 
-.text1{
+.text1 {
   line-height: 0.5em;
 }
-  
+
 .map {
-	border: 0.1rem solid #F2F2F2;
-	padding: 1rem;
-	width: 2rem;
+  border: 0.1rem solid #f2f2f2;
+  padding: 1rem;
+  width: 2rem;
   height: auto;
   text-align: center;
-	border-radius: 1rem 0rem 0rem 1rem;
-	background-color: #F2F2F2;
+  border-radius: 1rem 0rem 0rem 1rem;
+  background-color: #f2f2f2;
 }
 
-#fname{
+#fname {
   outline: 0;
   width: 11rem;
   padding: 1rem 0.1rem 1rem 1rem;
-  border: 0.1rem solid #F2F2F2;
+  border: 0.1rem solid #f2f2f2;
 }
 
 .research {
   display: flex;
-	padding: 1rem;
-	border: 0.11rem solid #C5C5C5;
-	width: 6rem;
+  padding: 1rem;
+  border: 0.11rem solid #c5c5c5;
+  width: 6rem;
   text-align: center;
-	border-radius: 0rem 1rem 1rem 0rem;
-	background-color: #0065FC;
-	color: aliceblue;
+  border-radius: 0rem 1rem 1rem 0rem;
+  background-color: #0065fc;
+  color: aliceblue;
 }
 
 .research-phone {
   display: none;
-  background-color: #0065FC;
+  background-color: #0065fc;
   padding: 1rem;
   border-radius: 1rem;
   color: white;
@@ -56,7 +56,7 @@ body{
   margin-left: 1rem;
 }
 
-.news{
+.news {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -64,27 +64,26 @@ body{
   margin-right: 2rem;
 }
 
-.filtre{
- margin-left: 2rem;
- display: flex;
-align-items: baseline;
+.filtre {
+  margin-left: 2rem;
+  display: flex;
+  align-items: baseline;
 }
 
-.g-filtre{
+.g-filtre {
   margin-left: 2rem;
 }
 
-
 #icom {
-  background-color: #0065FC;
+  background-color: #0065fc;
   color: white;
   border-radius: 50%;
   margin-left: 0;
 }
 
-.row {  
+.row {
   display: flex;
-  height:85vh;
+  height: 85vh;
   flex-direction: row;
 }
 
@@ -95,7 +94,7 @@ align-items: baseline;
   border-radius: 1vw;
   width: 70%;
   height: 82vh;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   order: 1;
   margin-right: 2rem;
   margin-left: 2rem;
@@ -113,49 +112,49 @@ align-items: baseline;
   justify-content: flex-start;
 }
 
-.title-h{
- font-size: 1.5rem;
- font-weight: 900;
- margin-top: 1rem;
- margin-left: 2rem;
- padding: 0rem;
+.title-h {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  padding: 0rem;
 }
 
-.hebergement{
+.hebergement {
   width: 19vw;
   height: 25vh;
-   border-radius: 1rem;
+  border-radius: 1rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 
-.cards{
+.cards {
   width: 19vw;
   height: 15vh;
   object-fit: cover;
   border-radius: 1rem 1rem 0rem 0rem;
 }
 
-.hebergement-texte{
+.hebergement-texte {
   line-height: 0rem;
 }
 
-.display{
+.display {
   margin-left: 2rem;
- font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 /*Partie les plus populaire*/
-.title{
+.title {
   display: flex;
   flex-direction: row;
-  justify-content: space-between ;
+  justify-content: space-between;
   width: 90%;
   font-size: 1.5rem;
- font-weight: 900;
- margin: 1rem 0rem 1rem 0rem;
- padding: 0rem ;
+  font-weight: 900;
+  margin: 1rem 0rem 1rem 0rem;
+  padding: 0rem;
 }
 
-.popular{
+.popular {
   width: 25vw;
   height: 18vh;
   border-radius: 1rem;
@@ -163,7 +162,7 @@ align-items: baseline;
   margin: 2.8rem 0rem 0rem 0rem;
 }
 
-.cards0{
+.cards0 {
   width: 10vw;
   height: 18vh;
   object-fit: cover;
@@ -171,42 +170,42 @@ align-items: baseline;
 }
 
 .populartitle {
- margin-right: 1rem;
-}  
+  margin-right: 1rem;
+}
 
-.star{
+.star {
   line-height: 6rem;
 }
-  
-.blue-star{
-  color: #0065FC;
+
+.blue-star {
+  color: #0065fc;
 }
 
-.grey-star{
+.grey-star {
   color: #f1f1f1;
 }
 
 /*Activités à Marseilles*/
 
-.activity{
+.activity {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   width: 100%;
   flex-wrap: wrap;
- padding: 0rem;
- margin-left: 0.5rem;
+  padding: 0rem;
+  margin-left: 0.5rem;
   margin-bottom: 3rem;
 }
- 
-.double{
+
+.double {
   display: flex;
   flex-direction: column;
   margin-left: 1.3rem;
   margin-right: 1.5rem;
 }
 
-.title-a{
+.title-a {
   display: flex;
   width: 100%;
   margin-left: 2rem;
@@ -215,39 +214,34 @@ align-items: baseline;
   justify-content: flex-start;
 }
 
-.cards1{
+.cards1 {
   width: 21.5vw;
   height: 28vw;
   object-fit: cover;
   border-radius: 1vw 1vw 0vw 0;
 }
 
-.cards2{
+.cards2 {
   width: 21.5vw;
   height: 12vw;
   object-fit: cover;
   border-radius: 1vw 1vw 0px 0px;
 }
 
-.thumbnail1{
+.thumbnail1 {
   width: 21.5vw;
   height: 31vw;
   border-radius: 1vw;
   box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
 }
 
-.thumbnail2{
+.thumbnail2 {
   width: 21.5vw;
   height: 15vw;
   border-radius: 1vw;
   box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
 }
 
-.name{
+.name {
   padding-left: 1rem;
 }
-
-
-
-
-

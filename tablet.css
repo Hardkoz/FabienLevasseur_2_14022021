@@ -43,7 +43,7 @@ border-top: #0065FC 0.2rem solid;
   line-height: 3.5rem;
   color: #0065FC;
 }
-
+/*section*/
 .text{
   margin-left: 1rem;
   line-height: 1.5em;
@@ -112,7 +112,7 @@ border-top: #0065FC 0.2rem solid;
 .button{
   margin-left: 1rem;
 }
-  
+  /*main*/
 .row {  
   display: flex;
   height:auto;
@@ -147,7 +147,7 @@ border-top: #0065FC 0.2rem solid;
   width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-left: 2rem;
+ 
 }
 
 .hebergement{

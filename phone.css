@@ -155,7 +155,7 @@ color: black;
 } 
 /*fin navigation*/
 
-
+/*main*/
 .row {  
 display: flex;
 width: 100%;
@@ -164,7 +164,6 @@ flex-direction: column;
 }
 
 .side {
-  
   display: flex;
   flex-direction: column;
   background-color: #f1f1f1 ;
@@ -186,7 +185,7 @@ flex-direction: column;
 
 .title-h{
   display: flex;
-  margin-left: 1rem;
+  margin-left: 2.5rem;
   align-self: start;
   font-size: 1.1rem;
  font-weight: 900;
@@ -220,16 +219,16 @@ flex-direction: column;
 }
 
 .display{
-  width: 100%;
-  margin-left: 1.5rem;
+ align-self: flex-start;
+margin-left: 2.5rem;
  font-size: 1rem;
 }
 
 .title{
   display: flex;
   flex-direction: row;
-  justify-content: space-between ;
-  width: 90%;
+  justify-content:space-between ;
+  width: 75%;
   font-size: 1.2rem;
  font-weight: 900;
  margin-top: 1rem;
@@ -245,8 +244,6 @@ flex-direction: column;
   background-color: white; 
   display: flex;
   flex-direction: row;
-  
-  
   padding: 0.3rem;
   margin: 0.5rem;
 }
@@ -341,10 +338,19 @@ flex-direction: column;
   justify-content: flex-start;
   background-color: #F2F2F2;
  
+ 
 }
 
 .foot-title{
-  line-height: 3rem;
+  line-height: 2rem;
   font-size: 1.1rem;
+  margin-left: 2rem;
   font-weight: bolder;
+  width: 90%;
+}
+
+.foot-text{
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }

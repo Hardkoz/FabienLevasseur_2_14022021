@@ -2,6 +2,24 @@ body {
   font-family: "Raleway", sans-serif;
   margin: 0%;
 }
+.menu-element1:hover{
+  border-top: 0.2rem solid #0065fc;
+  line-height: 3rem;
+  border-bottom: none;
+  text-decoration: none;
+  width: none;
+  color: blue;
+}
+
+.menu-element2:hover{
+  border-top: 0.2rem solid #0065fc;
+  line-height: 3rem;
+  border-bottom: none;
+  text-decoration: none;
+  color: blue;
+}
+
+
 
 .text {
   margin-left: 2rem;
@@ -174,7 +192,7 @@ body {
 }
 
 .star {
-  line-height: 9rem;
+  line-height: 5rem;
 }
 
 .blue-star {
@@ -196,6 +214,7 @@ body {
   padding: 0rem;
   margin-left: 0.5rem;
   margin-bottom: 3rem;
+  
 }
 
 .double {
@@ -219,6 +238,7 @@ body {
   height: 28vw;
   object-fit: cover;
   border-radius: 1vw 1vw 0vw 0;
+  
 }
 
 .cards2 {
@@ -226,6 +246,7 @@ body {
   height: 12vw;
   object-fit: cover;
   border-radius: 1vw 1vw 0px 0px;
+ 
 }
 
 .thumbnail1 {
@@ -233,6 +254,7 @@ body {
   height: 31vw;
   border-radius: 1vw;
   box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+  
 }
 
 .thumbnail2 {
@@ -241,7 +263,18 @@ body {
   border-radius: 1vw;
   box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
 }
+ 
 
 .name {
   padding-left: 1rem;
+  text-decoration: none;
+  outline: 1;
+  color: black;
+  
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
 }

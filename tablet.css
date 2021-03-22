@@ -18,9 +18,9 @@ body {
   border-bottom: none;
   display: flex;
   width: inherit;
-  line-height: 3rem;
-  padding: 2rem;
-  border-top: #0065fc 0.2rem solid;
+  line-height: 3.5rem;
+  padding: 1.9rem;
+ 
 }
 
 .menu-element2 {
@@ -31,6 +31,22 @@ body {
   padding: 1.9rem;
 }
 
+.menu-element1:hover{
+  border-top: 0.2rem solid #0065fc;
+  line-height: 3rem;
+  
+  text-decoration: none;
+  color: blue;
+}
+
+.menu-element2:hover{
+  border-top: 0.2rem solid #0065fc;
+  line-height: 3rem;
+  
+  text-decoration: none;
+  color: blue;
+}
+
 .menu-element3 {
   display: flex;
   position: inherit;
@@ -39,6 +55,14 @@ body {
   padding: 1.9rem;
   line-height: 3.5rem;
   color: #0065fc;
+}
+
+.menu-element2 :active{
+  border-bottom: 0.3rem solid #0065fc;
+  line-height: 3rem;
+  width: 50rem;
+  text-decoration: none;
+  color: black;
 }
 /*section*/
 .text {
@@ -262,4 +286,18 @@ body {
 
 .help {
   flex-grow: 1;
+}
+
+.name {
+  padding-left: 1rem;
+  text-decoration: none;
+  outline: 1;
+  color: black;
+  
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
 }

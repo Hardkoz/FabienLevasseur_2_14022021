@@ -16,11 +16,19 @@ body {
 }
 
 .menu-element1 {
-  border-bottom: 0.3rem solid #0065fc;
+  border-bottom: 0.3rem solid #f1f1f1;
   line-height: 3rem;
   width: 50rem;
   text-decoration: none;
-  color: #0065fc;
+  color: black;
+}
+
+.menu-element1:hover {
+  border-bottom: 0.3rem solid #0065fc;
+  line-height: 3rem;
+ 
+  text-decoration: none;
+  color:#0065fc ;
 }
 
 .menu-element2 {
@@ -29,6 +37,14 @@ body {
   width: 50rem;
   text-decoration: none;
   color: black;
+}
+
+.menu-element2:hover {
+  border-bottom: 0.3rem solid #0065fc;
+  line-height: 3rem;
+  
+  text-decoration: none;
+  color:#0065fc ;
 }
 
 .menu-element3 {
@@ -112,6 +128,11 @@ body {
   margin: 0rem 0.5rem 1rem 0.1rem;
   cursor: pointer;
   color: black;
+}
+
+.button:hover{
+  background-color: #0065fc;
+    
 }
 
 .fa-money-bill-wave,
@@ -272,8 +293,18 @@ body {
 .activity {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  margin-left: 1.5rem;
+  align-items: center;
+  
+  
+}
+
+.title-a {
+  display: flex;
+  width: 85%;
+  margin-left: 2rem;
+ 
+ 
+  justify-content: flex-start;
 }
 
 .cards1 {
@@ -298,6 +329,7 @@ body {
   margin-bottom: 3%;
   margin-top: 3%;
   background-color: white;
+  
 }
 
 .thumbnail2 {
@@ -312,6 +344,8 @@ body {
 
 .name {
   padding-left: 1rem;
+  text-decoration: none;
+  outline: 0;
 }
 /*pied de page*/
 
@@ -334,4 +368,18 @@ body {
   margin-left: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.name {
+  padding-left: 1rem;
+  text-decoration: none;
+  outline: 1;
+  color: black;
+  
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
 }
